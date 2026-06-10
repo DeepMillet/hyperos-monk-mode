@@ -18,6 +18,23 @@ cd hyperos-monk-mode
 chmod +x debloat.sh restore.sh
 
 
+## 🛠️ Usage
+1. Engage Monk Mode (Debloat)
+Execute the main script to optimize your system. It safely categorizes the purge into Analytics, Xiaomi Bloat, and Google Bloat.
+
+./debloat.sh
+
+
+🟢 Revert Protocol (Restore)
+Need a specific stock app back? This script instantly reinstalls all purged packages for the current user, bringing the system back to its original state.
+
+./restore.sh
+
+ 
+🛡️ Disclaimer
+
+
+Safe Execution: This script removes packages strictly for the current user (⁠--user 0⁠). It does NOT delete system partitions and will NOT brick your device. A factory reset will permanently restore all stock applications
 
 
 
